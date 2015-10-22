@@ -1,0 +1,15 @@
+<html>
+<head>
+  <h1>This is the Computer Guessing page!!!</h1>
+</head>
+
+<body>
+<div class='box'>
+  <%= @question.answer_or_question.to_s%>
+</div>
+</body>
+
+
+<%=link_to "Yes", :class => 'button', :id => 'title_header'%>
+<%=link_to "No", :class => 'button', :id => 'title_header'%>
+</html>
